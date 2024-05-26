@@ -1,0 +1,45 @@
+Navigate to project folder
+$ cd "D:\SeleniumPython\Projects\FITA\pythonProject1_FITA"
+
+check all available folders in project
+$dir
+
+
+check rack of the added file, check if commit is available for any file
+$ git status
+
+
+Reinitialized existing Git repository
+$ git init
+
+
+create global repository on https://github.com/:
+
+$ git remote add origin https://github.com/Rukmi0104/FITA_repo_Ruk.git
+            error: remote origin already exists.
+
+
+Add all files in git repository from local folder
+$git add -A
+
+add selected file in github repository
+
+$ git add <file path>
+
+
+
+
+$ git commit -m "myy first git commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "rukmini.barange1990@yahoo.com"
+  git config --global user.name "Rukmini"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'RUKMINI@LAPTOP-20DEEN3N.(none)')
